@@ -1,0 +1,157 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Michael Telahun",
+    "label": "Data Scientist",
+    "image": "",
+    "email": "michael.telahun1@gmail.com",
+    "phone": "(502) 386-7550",
+    "url": "http://richardhendricks.example.com",
+    "summary": "Michael has a Master's of Computer Science and Engineering from University of Louisville. His professional experience as a Data Scientist has been spent Modeling in Finance, Healthcare, Imaging, and Quantum Information Systems. He has built data products and data pipelines from several complex systems.",
+    "location": {
+      "city": "Louisville",
+      "countryCode": "US",
+      "region": "Kentucky"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "michaeltelahun1",
+        "url": "https://github.com/michaeltelahun1"
+      },
+      {
+        "network": "Github",
+        "username": "m0tela01",
+        "url": "https://github.com/m0tela01"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Luma Financial technologies",
+      "location": "Cincinnati, OH",
+      "description": "International Structured Products trading and managing platform",
+      "position": "Data Scientist",
+      "url": "https://lumafintech.com/",
+      "startDate": "2022-07",
+      "summary": "Luma provides a single source platform for trading, managing and creating Structured Products. One of the core components of the business standardizes and homoginizes these products from their vast differences across companies into single data model.",
+      "highlights": [
+        "Developed data pipelines for key product metrics - Terraform, DBT, Snowflake, AWS, Python. \n• As a data engineer I sorted through 300+ product data features across multiple source systems (Mongo, SQL Server, PostgreSQL) and designed the data products. One of these data products is the calculations platform driven by over 60 features. This required centralizing industry knowledge and advising product managers",
+        "Developing portfolio based structured product recommender.\n• Match high return products to client portfolios by building or suggesting products when purchasing",
+        "Developed data pipelines for user engagement – Terraform, DBT, Snowflake, Pendo. \n• I took client transaction, Pendo user actions, and internal data to develop a user journey or story",
+        "Developed Streamlit applications across managed structured products company wide\n• View of similarity across structured products\n• View of relationships between stocks, indices, and underlying assets\n• Full dashboard of trading volume and opportunity\n• Client portfolio and Issuing bank reporting"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Louisville",
+      "url": "https://engineering.louisville.edu/academics/departments/computer/",
+      "area": "Computer Science and Engineering",
+      "studyType": "Master of Engineering",
+      "startDate": "2011-06-01",
+      "endDate": "2014-01-01"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Digital Compression Pioneer Award",
+      "date": "2014-11-01",
+      "awarder": "Techcrunch",
+      "summary": "There is no spoon."
+    }
+  ],
+  "publications": [
+    {
+      "name": "Data Rotation and its Influence on Quantum Encoding",
+      "publisher": "Springer Nature",
+      "releaseDate": "2023-01-23",
+      "url": "https://link.springer.com/article/10.1007/s11128-023-03837-1",
+      "summary": "Effective quantum data pre-processing via embedded rotations."
+    },
+    {
+      "name": "Aggregate Density Based Concept Drift Identification for Dynamic Sensor Data Models",
+      "publisher": "Springer: Neural Computing and Applications",
+      "releaseDate": "2021-04-01",
+      "url": "https://link.springer.com/article/10.1007/s00521-020-05190-1",
+      "summary": "Novel method for detecting when a model needs to be retrained prior to anyone knowing."
+    },
+    {
+      "name": "Exploring Information for Quantum Machine Learning Model",
+      "publisher": "University of Louisville",
+      "releaseDate": "2020-12-15",
+      "url": "https://ir.library.louisville.edu/cgi/viewcontent.cgi?article=4808&context=etd",
+      "summary": "Master Thesis - investigates several translations from classical to quantum optimzation problems."
+    },
+    {
+      "name": "TensorFlow Quantum: Impacts of Quantum State Preparation on Quantum Machine Learning Performance",
+      "publisher": "IEEE Access",
+      "releaseDate": "2020-11-16",
+      "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9272350",
+      "summary": "Analysis of cutting edge quantum feature maps using my own quantum-classical learning layer."
+    },
+    {
+      "name": "Heuristic Analysis For In-Plane Non-Contact Calibration of Rulers Using Mask R-CNN",
+      "publisher": "MDPI: Information",
+      "releaseDate": "2020-05-09",
+      "url": "https://www.mdpi.com/2078-2489/11/5/259",
+      "summary": "Measures objects in an image if the image contains a ruler, just snap a picture."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Compression",
+      "level": "Master",
+      "keywords": [
+        "Mpeg",
+        "MP4",
+        "GIF"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Miss Direction",
+      "description": "A mapping engine that misguides you",
+      "highlights": [
+        "Won award at AIHacks 2016",
+        "Built by all women team of newbie programmers",
+        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
+      ],
+      "keywords": [
+        "GoogleMaps",
+        "Chrome Extension",
+        "Javascript"
+      ],
+      "startDate": "2016-08-24",
+      "endDate": "2016-08-24",
+      "url": "missdirection.example.com",
+      "roles": [
+        "Team lead",
+        "Designer"
+      ],
+      "entity": "Smoogle",
+      "type": "application"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}
